@@ -3,20 +3,24 @@ import gardenImage from "./assets/temp_background.jpg";
 function Hero({ headline, subheading }) {
   return (
     <div
-      className="relative h-200 flex items-center justify-center text-center"
+      className="relative h-185 flex items-start justify-center text-center"
       style={{
         backgroundImage: `url(${gardenImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
+        padding: "10rem 1rem",
       }}
     >
       {/* Dark overlay */}
-      <div className="absolute inset-0 bg-green-900 opacity-75" />
+      <div className="absolute inset-0 bg-linear-to-b from-green-900/90 via-green-900/80 to-green-900/50" />
+      {/* <div className="absolute inset-0 bg-linear-to-b from-green-900/80 via-green-900/50 to-green-900/80" /> */}
 
       {/* Content */}
       <div className="relative z-10 text-white px-6">
-        <h1 className="text-5xl font-bold text-yellow-400 mb-4">{headline}</h1>
-        <p className="text-xl mb-8">{subheading}</p>
+        <h1 className="text-5xl font-bold text-yellow-400 mb-4 drop-shadow-lg">
+          {headline}
+        </h1>
+        <p className="text-xl mb-8 drop-shadow-md">{subheading}</p>
         <div className="flex gap-4 justify-center">
           <a
             href="/services"
