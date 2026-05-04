@@ -1,6 +1,7 @@
 import Navbar from "./Navbar";
-import Hero from "./hero";
+import Hero from "./Hero";
 import Services from "./Services";
+import Contact from "./Contact";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         subheading="Transforming your gardens across LS12."
       />
       <Services />
+      <Contact />
     </div>
   );
 }
