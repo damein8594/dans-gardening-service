@@ -1,4 +1,4 @@
-import gardenImage from "./assets/temp_background.jpg";
+import gardenImage from "./assets/background.jpg";
 
 function Hero({ headline, subheading }) {
   return (
@@ -6,7 +6,6 @@ function Hero({ headline, subheading }) {
       className="relative h-185 flex items-start justify-center text-center"
       style={{
         backgroundImage: `url(${gardenImage})`,
-        backgroundSize: "cover",
         backgroundPosition: "center",
         padding: "10rem 1rem",
       }}

@@ -1,7 +1,7 @@
 import ServiceCard from "./ServiceCard";
-import mow from "./assets/temp_lawnmower.jpg";
-import weeds from "./assets/temp_weeds.jpg";
-import mow_weeds from "./assets/temp_mow_weeding.jpg";
+import mow from "./assets/lawnmower.jpg";
+import weeds from "./assets/weeds.jpg";
+import mow_weeds from "./assets/mow_weeding.jpg";
 
 function Services() {
   const services = [
