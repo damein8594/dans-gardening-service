@@ -21,7 +21,7 @@ function Contact() {
   }
 
   return (
-    <div className="bg-green-900 py-12 px-6">
+    <div className="bg-green-90 py-12 px-6">
       <div className="container mx-auto max-w-xl">
         <h2 className="text-3xl font-bold text-center text-yellow-400 mb-2">
           Contact Us
